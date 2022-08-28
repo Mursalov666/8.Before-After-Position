@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 25px;
+    margin-left: 22px;
+}
+
+header .button a{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 24px;
+    color: rgb(0, 0, 0);
+    padding: 20px 28px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#First{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+    background-position: center;
+    vertical-align: bottom;
+    background-size: cover;
+    padding: 17rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#First .left h1{
+    font-size: 35px;
+    width: 44%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#First .left p{
+    font-size: 25px;
+    width: 61%;
+    margin-left: 100px;
+    margin-bottom: 45px;
+    color: azure;
+}
+
+#First .left a{
+    text-decoration: none;
+    background-color: #38A9E0;
+    border-radius: 24px;
+    color: azure;
+    padding: 20px 28px;
+    margin-left: 100px;
+}
+
+#First .right img{
+    margin-right: 100px;
+}
+
+.masks h2{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 40px;
+    position: absolute;
+    width: 100%;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.masks{
+    text-align: center;
+    position: relative;
+}
+
+#Product{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 30%;
+    margin-top: 20px;
+    border: 0px solid rgb(139, 139, 139);
+    position: relative;
+}
+
+.top img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.left a{
+    text-decoration: none;
+    color: #212529;
+    font-size: 26px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.left p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.box .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 0 0 5px 5px;
+}
+
+.icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 0px solid #fff;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.icon i{
+    margin-bottom: 15px;
+}
+
+#Quality{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-position: center;
+    background-size: cover;
+    padding: 12rem 0;
+}
+
+#Quality h1{
+    width: 50%;
+    font-size: 45px;
+    margin-top: -70px;
+    color: #fff;
+    text-align: center;
+}
+
+#Quality p{
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    font-size: 28px;
+    margin-top: 12px;
+    margin-bottom: 45px;
+}
+
+#Quality img{
+    margin-left: 70px;
+}
+
+#Quality a{
+    text-decoration: none;
+    color: #3088bb;
+    background-color: #fff;
+    padding: 15px 35px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 230px;
+    font-size: 25px;
+}
+
+.maska h2{
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 40px;
+    position: absolute;
+    width: 100%;
+    font-size: 36px;
+    top: 30px;
+    margin-bottom: 45px;
+}
+
+.maska{
+    text-align: center;
+    position: relative;
+    padding-top: 35px;
+}
+
